@@ -17,4 +17,6 @@ $ npm install nformat
 
 ``` js
 var nFormat = require('nformat');
+assert.equal(nFormat(12345678, '***-***:*** *'), '123-456:78');
+assert.equal(nFormat(123456789, '***-***-***'), '123-456-789');
 ```
