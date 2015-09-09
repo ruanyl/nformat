@@ -1,0 +1,25 @@
+{
+  "name": "nformat",
+  "version": "0.0.1",
+  "description": "simple number/string format",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruanyl/nformat"
+  },
+  "keywords": ["number or string format"] ,
+  "author": "Yulong Ruan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruanyl/nformat/issues"
+  },
+  "homepage": "https://github.com/ruanyl/nformat",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "ava": "0.1.0"
+  }
+}
