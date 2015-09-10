@@ -1,10 +1,12 @@
 {
   "name": "nformat",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "simple number/string format",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "babel ./src/index.js -o ./index.js --optional runtime",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,5 @@
   "dependencies": {
   },
   "devDependencies": {
-    "ava": "0.1.0"
   }
 }
